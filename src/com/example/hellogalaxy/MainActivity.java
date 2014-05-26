@@ -21,9 +21,9 @@ public class MainActivity extends Activity implements View.OnClickListener
 		switch(v.getId()){
 		case R.id.btnOK: //btnMsgが押された
 			//エディットテキストから入力内容を取り出す
-			EditText etv = (EditText)findViewById(R.id.edtFirst);
+			EditText etv = (EditText)findViewById(R.id.edtFamily);
 			String inputMsg = etv.getText().toString();
-			EditText etv2 = (EditText)findViewById(R.id.edtFamily);
+			EditText etv2 = (EditText)findViewById(R.id.edtFirst);
 			String inputMsg2 = etv2.getText().toString();
 			
 			//メッセージ表示用のTextViewを探して、文字を設定
